@@ -1,5 +1,5 @@
 import pygame
-import eight_queen_puzzle
+import moves_generator
 
 # pygame initialize
 pygame.init()
@@ -69,7 +69,7 @@ def main():
     square = 85     # size of each square
     padding = 10    # padding around board
     border = 2      # border width
-    board = eight_queen_puzzle.main(8)  # returns 10 possible moves
+    board = moves_generator.main(8)  # returns 10 possible moves
 
     index = 0       # index of each moves in board
     while True:
