@@ -106,7 +106,7 @@ def main():
         text_render(f"Current", black, 50, (795, 400))
         text_render(f"move", black, 50, (815, 435))
         text_render(f"{index+1}", black, 50, (835+add, 480))
-        text_render("! Use left and right arrow to change moves.", black, 20, (715, 678))
+        text_render("! Use left & right arrow keys to change moves.", black, 20, (707, 678))
 
         # drawing board and queen and flipping buffer
         draw_board_part1(square, border, padding)
